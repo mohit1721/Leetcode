@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/mohit1721/Leetcode/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/mohit1721/Leetcode/tree/master/0062-unique-paths) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/mohit1721/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Recursion
 |  |
@@ -42,4 +43,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/mohit1721/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/mohit1721/Leetcode/tree/master/0062-unique-paths) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/mohit1721/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
