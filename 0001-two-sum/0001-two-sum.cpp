@@ -2,31 +2,21 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
     int n=nums.size();
-    //#  
-    vector<pair<int,int>> vec;
+    //#  better
+    unordered_map<int,int>mp; //value -> index 
+
     for(int i=0;i<n;i++)
     {
-        vec.push_back({nums[i]  ,i });
-    }
-    sort(vec.begin() , vec.end());
-
-    int s=0,e=n-1;
-
-    while(s < e)
-    {
-        if(vec[s].first +vec[e].first ==target)
+        int num = nums[i];
+        int moreNeeded = target - num;
+        if(mp.count(moreNeeded))//present in map
         {
-            return {vec[s].second,vec[e].second};
+            return {i, mp[moreNeeded]}; // returned both index
         }
-        else if(vec[s].first + vec[e].first > target )
-        {
-            e--;
-        }
-        else{
-            s++;
-        }
+        //else , mapm num -> index
+        mp[num] = i;
     }
-   
+     
 return {-1,-1};
 
 
