@@ -3,17 +3,23 @@ public:
     vector<int> finalPrices(vector<int>& prices) {
         
         int n=prices.size();
+        stack<int>st;
         for(int i=0;i<n;i++)
         {
-            for(int j=i+1;j<n;j++)
+            //our condition satisfies
+            while(!st.empty() && prices[st.top()] >= prices[i])
             {
-                if(prices[j]<= prices[i] && j > i)
-                {
-                    prices[i] = prices[i] - prices[j];
-                    break;//wohi stop *********
-                }
+                int idx = st.top();
+                st.pop();
+                prices[idx] -= prices[i];
             }
+            //else
+            st.push(i);
+             
+
+
         }
+        
         return prices;
 
     }
