@@ -1,34 +1,33 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        // My Approach
-        // Better Approach
+        //  optimized 
         int n = nums.size();
         if(n==0) return 0;
-        sort(nums.begin() , nums.end());
-        int lastSmaller = INT_MIN ; // not -1 since... arr contains -ve numbers also
-        int cnt=0;
-        int maxCons =1 ; //
-        for(int i=0;i<n;i++)
+        unordered_set<int> st ;
+int maxLen =0 ;
+        for(int x : nums)
         {
-            //a[i] is the next element of the current sequence.
-            if(nums[i] - 1 == lastSmaller)
-            {
-                cnt++;
-                lastSmaller = nums[i];
-            }
-            // a[i] is not the next element of the current sequence*
-        //means , starting new current sequence ...
-            else if(nums[i] != lastSmaller)
-            {
-                cnt=1; // reinititialize cnt to 1
-                lastSmaller = nums[i];//
-            }
-            //update the maxLen always
-            maxCons = max(maxCons , cnt );
-        }
+            st.insert(x);
+        } 
 
-     return maxCons;
-        
+        //
+        for(int num: st)
+        {
+
+            //new sequence mil rha to set to uske num-1 present nhi hi hoga
+            if(st.count(num-1) == 0)//set m num-1 nhi mila to.. uske aage num +1 khojne ka try
+            {
+                int cnt = 1;
+                while(st.count(num + 1))//jb tk num+1 set m present h
+                {
+                num=num+1;
+                cnt++;
+                }
+                //
+                maxLen = max(maxLen , cnt); //update maxLen for current Sequence
+            }
+        }
+     return maxLen ;   
     }
 };
