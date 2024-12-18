@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/mohit1721/Leetcode/tree/master/0001-two-sum) |
 | [0063-unique-paths-ii](https://github.com/mohit1721/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/mohit1721/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0128-longest-consecutive-sequence](https://github.com/mohit1721/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/mohit1721/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [2486-most-frequent-even-element](https://github.com/mohit1721/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/mohit1721/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/mohit1721/Leetcode/tree/master/0001-two-sum) |
+| [0128-longest-consecutive-sequence](https://github.com/mohit1721/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [2486-most-frequent-even-element](https://github.com/mohit1721/Leetcode/tree/master/2486-most-frequent-even-element) |
 ## Counting
 |  |
@@ -65,4 +67,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/mohit1721/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/mohit1721/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
