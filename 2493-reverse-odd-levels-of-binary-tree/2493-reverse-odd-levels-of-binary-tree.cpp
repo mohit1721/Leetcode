@@ -40,7 +40,7 @@ public:
         {
             //reverse all nodes of that level..
             int i=0;
-            int j=lvlNodes.size()-1;//
+            int j=lvlNodes.size()-1;// n nhi hoga*
             while(i<j)
             {
                 int tempVal = lvlNodes[i]->val ;// vector m node stored h**
