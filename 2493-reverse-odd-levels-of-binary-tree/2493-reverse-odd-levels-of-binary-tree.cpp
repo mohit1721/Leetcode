@@ -11,56 +11,29 @@
  */
 class Solution {
 public:
-    TreeNode* reverseOddLevels(TreeNode* root) {
-    queue<TreeNode*>q;
-    q.push(root);
-    int level =0;
-    while(!q.empty())
+    void solve(TreeNode*l , TreeNode* r, int level)
     {
-        int n = q.size(); //size of that level [all node in that level]
-        vector<TreeNode*>lvlNodes;
-        while(n--)
+        if(!l || !r) return ;
+
+        //jisme sirf root h, level-0.. usko to reverse krna nhi h*
+
+        //level 1 , jo level 0 k baad h, jisme sirf 2 nodes h , usko reverse
+        if(level % 2 ==1)
         {
-            auto fnode = q.front();
-            q.pop();
-
-            lvlNodes.push_back(fnode); //nodes store kr rhe
-
-            //
-            if(fnode->left)
-                q.push(fnode->left);
-            if(fnode->right)
-                q.push(fnode->right);
-
+            int temp = l->val;
+            l->val= r->val;
+            r->val = temp;
         }
-        //ek level k saare nodes dal gaye..
-        // ab chk, agar level odd h
 
-        if(level%2==1)
-        {
-            //reverse all nodes of that level..
-            int i=0;
-            int j=lvlNodes.size()-1;// n nhi hoga*
-            while(i<j)
-            {
-                int tempVal = lvlNodes[i]->val ;// vector m node stored h**
-                lvlNodes[i]->val = lvlNodes[j]->val;
-                lvlNodes[j]->val = tempVal;
-                i++;
-                j--;
-            }
-        }
-        //else level inc. 
-        level++;
+        //baaki rec.
 
-
-    }     
-   
-
-
-   return root;
-
-
+        solve(l->left, r->right , level+1);
+        solve(l->right , r->left , level +1);
+    }
+    TreeNode* reverseOddLevels(TreeNode* root) {
+    //using dfs
+    solve(root->left, root->right, 1);
+    return root;
 
     }
 };
