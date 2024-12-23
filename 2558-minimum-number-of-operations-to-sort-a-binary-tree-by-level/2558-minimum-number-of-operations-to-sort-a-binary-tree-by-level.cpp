@@ -36,15 +36,17 @@ Sorting by Swapping: At each level, the problem reduces to finding the minimum n
             if(orgVec[i] == sortedVec[i])
                 continue; //dono element same jgh p h to skip
         //else
-        //orgVec ka element ka index nikalo;
-            int orgElementIdx = mp[sortedVec[i]];
-         
-           //update the index of that elemet
-           mp[orgVec[i]] = orgElementIdx;
 
-   //sortedVec ka element jo ki iss index{orgElementIdx} p hoga , wo shi  position hoga
-         swap ( orgVec[i] ,  orgVec[orgElementIdx] ); //
-           swaps++;
+         // Find the index of the correct element from the sorted array
+        int correctIndex = mp[sortedVec[i]];
+
+        // Update the index mapping after swapping
+        mp[orgVec[i]] = correctIndex;
+
+        // Swap the current element with the correct element
+        swap(orgVec[i], orgVec[correctIndex]);
+
+        swaps++;
         }
 return swaps;
     }
