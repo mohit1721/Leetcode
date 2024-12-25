@@ -20,16 +20,17 @@ if(!root) return {};
         q.push(root);
       
 
-
-
         while(!q.empty()){
-             std::priority_queue<int>maxHeap;
+            //  std::priority_queue<int>maxHeap;
+            // #2. 
+            int maxElement=INT_MIN;
             int n=q.size();
             while(n--)
             {
                 auto fnode = q.front();
                 q.pop();
-                maxHeap.push(fnode->val);
+                // maxHeap.push(fnode->val);
+                maxElement = max(maxElement, fnode->val);
                 if(fnode->left)
                 {
                     q.push(fnode->left);
@@ -42,10 +43,10 @@ if(!root) return {};
             }
             //ab ek ka maximum find
 
-            int maxNode=maxHeap.top();
-            maxHeap.pop();
+            // int maxNode=maxHeap.top();
+            // maxHeap.pop();
 
-            ans.push_back(maxNode);
+            ans.push_back(maxElement);
        
 
         }
