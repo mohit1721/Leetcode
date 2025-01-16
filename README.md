@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2292-counting-words-with-a-given-prefix](https://github.com/mohit1721/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/mohit1721/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2486-most-frequent-even-element](https://github.com/mohit1721/Leetcode/tree/master/2486-most-frequent-even-element) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/mohit1721/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/mohit1721/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/mohit1721/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/mohit1721/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -153,10 +154,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mohit1721/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/mohit1721/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/mohit1721/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## String Matching
 |  |
 | ------- |
 | [1524-string-matching-in-an-array](https://github.com/mohit1721/Leetcode/tree/master/1524-string-matching-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/mohit1721/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+## Brainteaser
+|  |
+| ------- |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/mohit1721/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
 <!---LeetCode Topics End-->
