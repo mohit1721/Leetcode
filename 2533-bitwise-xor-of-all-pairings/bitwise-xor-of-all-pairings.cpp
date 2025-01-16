@@ -5,29 +5,33 @@ public:
         int m=nums2.size();
         int k=0;
          int res=0;
-         unordered_map<int,long long int>mp; //nums1 ka element -> m times , & vice-versa
-        for(int &num : nums1)
+        //  unordered_map<int,long long int>mp; //nums1 ka element -> m times , & vice-versa
+
+         if(m%2==1 && n%2==0)//agar dusra wla odd length h to , 
+     {   for(int &num : nums1)
         {
-            mp[num]+=m;
+           res^=num;
+        }
+        
         }
         // similarly for nums2
-        for(int &num : nums2)
-        {
-            mp[num]+=n;
-        }
-        // 
-        for(auto &x: mp)
-       {
-        int num = x.first;
-       long long int freq=x.second;
-        // jiska sirf odd freq hoga wohi bachega..baki 0
-        if(freq %2 ==1)
+        if(n%2==1 && m%2==0)
+       { for(int &num : nums2)
         {
             res^=num;
+        }}
+        // 
+        if(n%2==1 && m%2==1)
+        { for(int &num : nums1)
+        {
+           res^=num;
+        }
+         for(int &num : nums2)
+        {
+           res^=num;
         }
 
-
-       }
+        }
 
       
         return res;
