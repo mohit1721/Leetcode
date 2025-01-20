@@ -2,29 +2,28 @@ class Solution {
 public:
 int n;
 vector<vector<int>>result;
-void solve(int idx,vector<int>& candidates,int target,vector<int>& temp )
+void solve(int idx,vector<int>& candidates,int target, vector<int>& temp )
 {
- if(target<0 ) return;
-  if( target==0){
+  if(target==0)
+  {
     result.push_back(temp);
     return;
+
   }
-  
 
-  //****
-  for(int i=idx;i<n;i++)///i=idx
+  for(int i=idx;i<n;i++)
   {
-  if(i > idx && candidates[i]==candidates[i-1]) continue;//***
-
-    //do
+    if (candidates[i] > target) break; //
+    //check duplicates
+    if(i>idx && candidates[i] == candidates[i-1]) continue;
+    // DO
+   
     temp.push_back(candidates[i]);
-      //explore
-     //i+1-->idx
-    solve(i+1,candidates,target-candidates[i],temp);
-    //undo
+    // explore [rec]
+    solve(i+1, candidates, target-candidates[i] , temp);
+    // UNDO
+ 
     temp.pop_back();
-
-
   }
  
 
