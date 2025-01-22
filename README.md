@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/mohit1721/Leetcode/tree/master/0007-reverse-integer) |
+| [0013-roman-to-integer](https://github.com/mohit1721/Leetcode/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/mohit1721/Leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/mohit1721/Leetcode/tree/master/0062-unique-paths) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/mohit1721/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/mohit1721/Leetcode/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/mohit1721/Leetcode/tree/master/0013-roman-to-integer) |
 | [0128-longest-consecutive-sequence](https://github.com/mohit1721/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0242-valid-anagram](https://github.com/mohit1721/Leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/mohit1721/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/mohit1721/Leetcode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/mohit1721/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/mohit1721/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0242-valid-anagram](https://github.com/mohit1721/Leetcode/tree/master/0242-valid-anagram) |
