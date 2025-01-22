@@ -1,44 +1,46 @@
 class Solution {
 public:
-    string reverseWords(string s) {
+    string reverseWords(string& s) {
         //
-        int n=s.length();
-        int i=0;
-        int l=0,r=0;
-//A. Reverse whole String s
-reverse(s.begin(),s.end());
+ // A. Reverse whole String s
+// jb tk character milta h assign to r
+ // else,agar space milta h to,reverse the word b.w l & r
+//  r ko v to aage badhao** gltiii
+// l ko v to ab aage badhana h ..jo ki ab r k paas ayega
+ // return only r-1
 
-
+        int n = s.length();
+        int i = 0;
+        // A. Reverse
+        reverse(s.begin(), s.end());
+        // 
+        int l=0, r=0;
         while(i<n)
         {
-            //B.
-            while(i<n && s[i] != ' ')//jb tk character milta h assign to r
+            while(i<n && s[i] != ' ')//jbtk space n mile
             {
-                s[r++]=s[i++];
+                s[r++]= s[i++];
             }
-            //else,agar space milta h to,reverse the word b.w l & r
+         //else,agar space milta h to,reverse the word b.w l & r
+
             if(l<r)
             {
-                reverse(s.begin()+l, s.begin()+r);//**
-                //ek space add to at last
-                s[r]=' ';
-                r++;//r ko v to aage badhao** gltiii
-                //l ko v to ab aage badhana h ..jo ki ab r k paas ayega
-                l=r;//
-
+        // reverse this word now
+            reverse(s.begin()+l, s.begin()+r); //l to r
+            // last m ek space add
+            s[r]=' ';
+            r++;
+            l=r; //l ko aage badha do
             }
-            //
+    i++;
 
 
 
-
-
-            i++;
         }
 
-//return only r-1 
-s=s.substr(0,r-1);
-return s;
+return s.substr(0, r-1);//last space exclue;
+
+
 
 
     }
