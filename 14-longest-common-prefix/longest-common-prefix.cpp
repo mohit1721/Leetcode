@@ -7,7 +7,7 @@ public:
         for(int i=1;i<strs.size();i++)
         {
             int j=0;
-            while(j<prefix.size() && j<=strs[i].size() && prefix[j] == strs[i][j]){ ///***j<prefix.size() **
+            while( j<strs[i].size() && prefix[j] == strs[i][j]){ ///***j<prefix.size() **
                 j++;
             }
             prefix = prefix.substr(0,j);
