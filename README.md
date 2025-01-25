@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2691-count-vowel-strings-in-ranges](https://github.com/mohit1721/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/mohit1721/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/mohit1721/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/mohit1721/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/mohit1721/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Binary Search
 |  |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/mohit1721/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/mohit1721/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Two Pointers
 |  |
 | ------- |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/mohit1721/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/mohit1721/Leetcode/tree/master/0455-assign-cookies) |
 | [0780-max-chunks-to-make-sorted](https://github.com/mohit1721/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
+| [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/mohit1721/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Tree
 |  |
 | ------- |
