@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mohit1721/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0820-find-eventual-safe-states](https://github.com/mohit1721/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/mohit1721/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mohit1721/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -246,8 +247,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/mohit1721/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/mohit1721/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Topological Sort
 |  |
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/mohit1721/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/mohit1721/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 <!---LeetCode Topics End-->
