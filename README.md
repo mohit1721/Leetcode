@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2486-most-frequent-even-element](https://github.com/mohit1721/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/mohit1721/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/mohit1721/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/mohit1721/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/mohit1721/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/mohit1721/Leetcode/tree/master/2792-neighboring-bitwise-xor) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/mohit1721/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/mohit1721/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [1876-map-of-highest-peak](https://github.com/mohit1721/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [2145-grid-game](https://github.com/mohit1721/Leetcode/tree/master/2145-grid-game) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/mohit1721/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Hash Table
 |  |
 | ------- |
@@ -115,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/mohit1721/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/mohit1721/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/mohit1721/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Two Pointers
 |  |
@@ -152,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/mohit1721/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/mohit1721/Leetcode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mohit1721/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/mohit1721/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -161,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-map-of-highest-peak](https://github.com/mohit1721/Leetcode/tree/master/1876-map-of-highest-peak) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mohit1721/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mohit1721/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/mohit1721/Leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Binary Tree
 |  |
 | ------- |
