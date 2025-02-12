@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2292-counting-words-with-a-given-prefix](https://github.com/mohit1721/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/mohit1721/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/mohit1721/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mohit1721/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2486-most-frequent-even-element](https://github.com/mohit1721/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/mohit1721/Leetcode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/mohit1721/Leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/mohit1721/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mohit1721/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2448-count-number-of-bad-pairs](https://github.com/mohit1721/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mohit1721/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2486-most-frequent-even-element](https://github.com/mohit1721/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/mohit1721/Leetcode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/mohit1721/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/mohit1721/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/mohit1721/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0407-trapping-rain-water-ii](https://github.com/mohit1721/Leetcode/tree/master/0407-trapping-rain-water-ii) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mohit1721/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/mohit1721/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Simulation
 |  |
@@ -163,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/mohit1721/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0455-assign-cookies](https://github.com/mohit1721/Leetcode/tree/master/0455-assign-cookies) |
 | [0780-max-chunks-to-make-sorted](https://github.com/mohit1721/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mohit1721/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/mohit1721/Leetcode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 ## Tree
 |  |
