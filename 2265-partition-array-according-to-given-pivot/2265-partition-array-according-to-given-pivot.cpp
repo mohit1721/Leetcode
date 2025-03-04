@@ -18,10 +18,10 @@ public:
                 }
         }
 //less wale m hi baki k add kr do 
-for(int num : equal){
+for(int& num : equal){
     less.push_back(num);
 }
-for(int num: greater){
+for(int& num: greater){
     less.push_back(num);
 }
 
