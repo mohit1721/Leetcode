@@ -1,32 +1,33 @@
 class Solution {
 public:
     vector<int> pivotArray(vector<int>& nums, int pivot) {
-        // brute force - 3 vectors
-        vector<int>less;
-        vector<int>equal;
-        vector<int>greater;
-        for(int i=0;i<nums.size();i++){
-            if(nums[i] < pivot)
-            {
-                less.push_back(nums[i]);
+        // better
+        // count less < pivots & equal to pivot... then set 3 pointers acc. to theri lengths
+        int n =nums.size();
+        int less=0, equal =0 ;
+        for(int i=0;i<n ;i++){
+            if(nums[i] < pivot) less++;
+            else if(nums[i]==pivot) equal++;
+        }
+    //   not set pointers acc. 
+    int lessPtr=0, equalPtr = less, greaterPtr = less + equal ;
+    vector<int>ans(n);
+        for(int i=0;i<n;i++)
+        {
+            if(nums[i] < pivot && lessPtr <= less){
+                ans[lessPtr]=nums[i];
+                lessPtr++;
             }
-            else if(nums[i]== pivot){
-                equal.push_back(nums[i]);
+            else if(nums[i] == pivot && equalPtr <= equal+less ){
+                ans[equalPtr]=nums[i];
+                equalPtr++;
             }
             else{
-                greater.push_back(nums[i]);
-                }
+                ans[greaterPtr] = nums[i];
+                greaterPtr++;
+            }
         }
-//less wale m hi baki k add kr do 
-for(int num : equal){
-    less.push_back(num);
-}
-for(int num: greater){
-    less.push_back(num);
-}
 
-
-return less;
-        
+        return ans;
     }
 };
