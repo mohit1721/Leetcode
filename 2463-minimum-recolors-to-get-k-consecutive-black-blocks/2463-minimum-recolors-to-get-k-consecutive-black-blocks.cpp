@@ -2,32 +2,34 @@ class Solution {
 public:
    int minimumRecolors(string& blocks, int k) {
     int n = blocks.size();
-    int low = 0, high = 0, windowsize = k;
+    int low = 0, high = 0, windowSize = k;
     
     int whiteCount = 0, minOperations = INT_MAX;
 
     while (high < n) {
-        // Include current block in window
-        if (blocks[high] == 'W') {
-            whiteCount++;
-        }
+        //case A :  windowLen < windowSize
 
-        // Step 1: Expand window until it reaches size 'k'
-        if (high - low + 1 < windowsize) {
+        //case A -> i)  always count++
+         if(blocks[high] == 'W')
+                whiteCount++;
+            // ii)
+        if(high - low + 1 < windowSize ){
             high++;
-        } 
-        // Step 2: Process the window
-        else {
+
+        }
+        //case B:  else windowLen == windowSize
+        else{
             minOperations = min(minOperations, whiteCount);
+            // slide left window acc. to qn**
+                if(blocks[low] == 'W'){
+                     whiteCount--;
+                }
 
-            // Remove outgoing element (shrink window)
-            if (blocks[low] == 'W') {
-                whiteCount--;
-            }
-            
             low++;
+            // also right window
             high++;
         }
+       
     }
 
     return minOperations;
