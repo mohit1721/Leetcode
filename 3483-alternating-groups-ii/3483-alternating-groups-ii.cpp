@@ -1,37 +1,38 @@
 class Solution {
 public:
-  int numberOfAlternatingGroups(vector<int>& colors, int k) {
-    int n = colors.size();
+    int numberOfAlternatingGroups(vector<int>& clrs, int k) {
+        int n=clrs.size();
+        // NOTE- Circular Array - append the same array [length acc. to q. -> like in this -> k-1 length]
+        for(int i=0;i<k-1;i++)
+        {
+            clrs.push_back(clrs[i]);
+        }
+        //  sw
+        int res = 0;
+        int s=0, e=1;
+        int windowLen=1;
 
-    // Extend array for circular wrap-around
-    for (int i = 0; i < k - 1; i++) {
-        colors.push_back(colors[i]);
-    }
-
-    int result = 0;
-    int low = 0, high = 1; // Start from 1 since we compare high-1 with high
-    int count = 1; // To track alternating sequence length
-
-    while (high < n + k - 1) {
-        // If alternating condition breaks, reset count and update low
-        if (colors[high] == colors[high - 1]) {
-            count = 1; // Restart count
-            low = high; // Start new window
-        } else {
-            count++; // Extend alternating sequence
+        while(e<n+k-1){
+            // window length < k
+        if(clrs[e]==clrs[e-1]){
+            windowLen=1;//restart
+            // move left window
+            s = e;
+        }else{
+            // go further
+            windowLen++;
         }
 
-        // Check if window of size `k` is reached
-        if (count == k) {
-            result++;
-            count--; // Slide window forward
+            if(windowLen==k){
+                res++;
+                windowLen--;//shrinking from left side
+            }
+            // move continue
+            e++; // 
         }
+    
 
-        high++;
+
+        return res;
     }
-
-    return result;
-}
-
-
 };
