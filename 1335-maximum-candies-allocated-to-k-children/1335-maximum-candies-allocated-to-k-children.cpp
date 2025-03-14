@@ -1,6 +1,6 @@
 class Solution {
 public:
-bool canDistribute(vector<int>& candies, long long candiesToDistribute, long long children){
+bool canDistribute(vector<int>& candies, long long &candiesToDistribute, long long children){
     int n = candies.size();
 
     for(int i=0;i<n;i++)
