@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2145-grid-game](https://github.com/mohit1721/Leetcode/tree/master/2145-grid-game) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/mohit1721/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/mohit1721/Leetcode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2294-minimum-time-to-complete-trips](https://github.com/mohit1721/Leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2358-number-of-ways-to-split-array](https://github.com/mohit1721/Leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2448-count-number-of-bad-pairs](https://github.com/mohit1721/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/mohit1721/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/mohit1721/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/mohit1721/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/mohit1721/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [2294-minimum-time-to-complete-trips](https://github.com/mohit1721/Leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/mohit1721/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Matrix
 |  |
