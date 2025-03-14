@@ -2,7 +2,7 @@ class Solution {
 public:
     // same as Aggresise cows
 
-    bool possibleToPlace(int& force, vector<int>& position, int m) {
+    bool possibleToPlace(int force, vector<int>& position, int m) {
         int ballCount=1;
         int prev=position[0];
         for(int i=1;i<position.size();i++)
