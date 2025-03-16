@@ -2,30 +2,35 @@ class Solution {
 public:
     int maxScore(vector<int>& cards, int K) {
         
-   int N = cards.size();
+    int N = cards.size();
+    int totalSum = 0;
     
-    // Step 1: Compute the prefix sum and suffix sum arrays
-    vector<int> prefix(K + 1, 0); // Prefix sum for first K cards
-    vector<int> suffix(K + 1, 0); // Suffix sum for last K cards
-    
-    // Compute prefix sum for the first K cards
-    for (int i = 1; i <= K; ++i) {
-        prefix[i] = prefix[i - 1] + cards[i - 1];
+    // Step 1: Compute total sum of all cards
+    for (int num : cards) {
+        totalSum += num;
     }
-    
-    // Compute suffix sum for the last K cards
-    for (int i = 1; i <= K; ++i) {
-        suffix[i] = suffix[i - 1] + cards[N - i];
+
+    // Edge case: If K == N, return the total sum (pick all cards)
+    if (K == N) return totalSum;
+
+    // Step 2: Find the minimum sum of a window of size (N-K)
+    int windowSize = N - K;
+    int minWindowSum = INT_MAX, currentWindowSum = 0;
+
+    // Compute the first window sum
+    for (int i = 0; i < windowSize; ++i) {
+        currentWindowSum += cards[i];
     }
-    
-    // Step 2: Try picking x cards from the front and K - x from the back
-    int maxScore = 0;
-    for (int x = 0; x <= K; ++x) {
-        int currentScore = prefix[x] + suffix[K - x];
-        maxScore = max(maxScore, currentScore);
+    minWindowSum = currentWindowSum;
+
+    // Slide the window across the array
+    for (int i = windowSize; i < N; ++i) {
+        currentWindowSum += cards[i] - cards[i - windowSize];
+        minWindowSum = min(minWindowSum, currentWindowSum);
     }
-    
-    return maxScore;
+
+    // Step 3: Maximum score = Total sum - Minimum window sum
+    return totalSum - minWindowSum;
 
         
     }
