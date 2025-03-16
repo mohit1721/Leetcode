@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/mohit1721/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1477-product-of-the-last-k-numbers](https://github.com/mohit1721/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1524-string-matching-in-an-array](https://github.com/mohit1721/Leetcode/tree/master/1524-string-matching-in-an-array) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/mohit1721/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/mohit1721/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1675-magnetic-force-between-two-balls](https://github.com/mohit1721/Leetcode/tree/master/1675-magnetic-force-between-two-balls) |
 | [1876-map-of-highest-peak](https://github.com/mohit1721/Leetcode/tree/master/1876-map-of-highest-peak) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/mohit1721/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/mohit1721/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/mohit1721/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/mohit1721/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/mohit1721/Leetcode/tree/master/2145-grid-game) |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mohit1721/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/mohit1721/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/mohit1721/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/mohit1721/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/mohit1721/Leetcode/tree/master/3483-alternating-groups-ii) |
 <!---LeetCode Topics End-->
