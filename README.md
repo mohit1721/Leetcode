@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/mohit1721/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0455-assign-cookies](https://github.com/mohit1721/Leetcode/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/mohit1721/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0560-subarray-sum-equals-k](https://github.com/mohit1721/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0740-delete-and-earn](https://github.com/mohit1721/Leetcode/tree/master/0740-delete-and-earn) |
 | [0780-max-chunks-to-make-sorted](https://github.com/mohit1721/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0854-making-a-large-island](https://github.com/mohit1721/Leetcode/tree/master/0854-making-a-large-island) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/mohit1721/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0242-valid-anagram](https://github.com/mohit1721/Leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/mohit1721/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0560-subarray-sum-equals-k](https://github.com/mohit1721/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0740-delete-and-earn](https://github.com/mohit1721/Leetcode/tree/master/0740-delete-and-earn) |
 | [1160-letter-tile-possibilities](https://github.com/mohit1721/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/mohit1721/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/mohit1721/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1477-product-of-the-last-k-numbers](https://github.com/mohit1721/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/mohit1721/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/mohit1721/Leetcode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
