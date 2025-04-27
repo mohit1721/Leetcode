@@ -9,9 +9,11 @@ public:
         // Once we have a window of size 3
         if (j - i + 1 == 3) {
             // Check the condition for the triplet nums[i], nums[i+1], nums[i+2]
-            if ((nums[i] + nums[j] )*2== nums[i+1] ) {//---JAHIL ->
+            if ((nums[i] + nums[j] )*2== nums[i+1] ) {//---JAHIL -> /
                 count++;  // If the condition is met, increase the count
+                i++;
             }
+            else
             // Shift the window by moving 'i' forward
             i++;
         }
