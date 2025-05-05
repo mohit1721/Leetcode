@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/mohit1721/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0213-house-robber-ii](https://github.com/mohit1721/Leetcode/tree/master/0213-house-robber-ii) |
 | [0740-delete-and-earn](https://github.com/mohit1721/Leetcode/tree/master/0740-delete-and-earn) |
+| [0806-domino-and-tromino-tiling](https://github.com/mohit1721/Leetcode/tree/master/0806-domino-and-tromino-tiling) |
 ## Combinatorics
 |  |
 | ------- |
