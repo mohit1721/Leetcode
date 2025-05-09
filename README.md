@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/mohit1721/Leetcode/tree/master/0062-unique-paths) |
 | [0202-happy-number](https://github.com/mohit1721/Leetcode/tree/master/0202-happy-number) |
 | [0371-sum-of-two-integers](https://github.com/mohit1721/Leetcode/tree/master/0371-sum-of-two-integers) |
+| [0445-add-two-numbers-ii](https://github.com/mohit1721/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/mohit1721/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1477-product-of-the-last-k-numbers](https://github.com/mohit1721/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/mohit1721/Leetcode/tree/master/2432-number-of-zero-filled-subarrays) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/mohit1721/Leetcode/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/mohit1721/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0225-implement-stack-using-queues](https://github.com/mohit1721/Leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0445-add-two-numbers-ii](https://github.com/mohit1721/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/mohit1721/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/mohit1721/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/mohit1721/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -388,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/mohit1721/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/mohit1721/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0206-reverse-linked-list](https://github.com/mohit1721/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0445-add-two-numbers-ii](https://github.com/mohit1721/Leetcode/tree/master/0445-add-two-numbers-ii) |
 ## Merge Sort
 |  |
 | ------- |
