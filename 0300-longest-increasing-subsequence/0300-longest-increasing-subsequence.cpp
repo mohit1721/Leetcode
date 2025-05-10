@@ -17,13 +17,13 @@ public:
         vector<vector<int>>dp(n+1, vector<int>(n+1, 0));
 
     for(int curr=n-1;curr>=0;curr--){
-        for(int prev= n-1;prev>=-1;prev--){
+        for(int prev= curr-1;prev>=-1;prev--){//optimize-> prev = n-1 -> curr - ;1
     int include = 0;
 
         if(prev == -1 || nums[curr] > nums[prev]){
-            include = 1  + dp[curr+1][curr+1]; //***change
+            include = 1  + dp[curr+1][curr+1]; //***change2
         }
-        int exclude = 0 + dp[curr+1][prev+1]; //***change
+        int exclude = 0 + dp[curr+1][prev+1]; //***change1
 
         dp[curr][prev+1] =  max(include, exclude);
 
