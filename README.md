@@ -208,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/mohit1721/Leetcode/tree/master/0213-house-robber-ii) |
 | [0740-delete-and-earn](https://github.com/mohit1721/Leetcode/tree/master/0740-delete-and-earn) |
 | [0806-domino-and-tromino-tiling](https://github.com/mohit1721/Leetcode/tree/master/0806-domino-and-tromino-tiling) |
+| [1250-longest-common-subsequence](https://github.com/mohit1721/Leetcode/tree/master/1250-longest-common-subsequence) |
 ## Combinatorics
 |  |
 | ------- |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/mohit1721/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/mohit1721/Leetcode/tree/master/0242-valid-anagram) |
 | [1160-letter-tile-possibilities](https://github.com/mohit1721/Leetcode/tree/master/1160-letter-tile-possibilities) |
+| [1250-longest-common-subsequence](https://github.com/mohit1721/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/mohit1721/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/mohit1721/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1524-string-matching-in-an-array](https://github.com/mohit1721/Leetcode/tree/master/1524-string-matching-in-an-array) |
