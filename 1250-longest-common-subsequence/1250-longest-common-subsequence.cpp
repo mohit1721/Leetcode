@@ -25,9 +25,9 @@ public:
                 for(int j=m-1;j>=0;j--){
 
           if(a[i]==b[j]){
-            ans = 1 + mem(a,b,i+1,j+1,dp);
+            ans = 1 + dp[i+1][j+1];
          }else{
-            ans = max(mem(a,b,i+1, j,dp) , mem(a,b,i,j+1,dp));
+            ans = max(dp[i+1][j],dp[i][j+1]);
          }
 
          dp[i][j]= ans;
