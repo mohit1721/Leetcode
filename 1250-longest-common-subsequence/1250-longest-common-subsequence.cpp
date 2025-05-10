@@ -7,7 +7,7 @@ public:
          int ans = 0;
 
           if(a[i]==b[j]){
-            ans = 1 + mem(a,b,i+1,j+1,dp);
+            ans = 1 + dp[i+1][j+1];
          }else{
             ans = max(mem(a,b,i+1, j,dp) , mem(a,b,i,j+1,dp));
          }
