@@ -16,12 +16,33 @@ public:
 
     }
  
-    // int tab()
+    int tab(string& a, string& b){
+         vector<vector<int>> dp(a.length() + 1,  vector<int>(b.length() + 1, 0));
+        int n=a.length();
+        int m=b.length();
+        int ans=0;
+            for(int i=n-1;i>=0;i--){
+                for(int j=m-1;j>=0;j--){
+
+          if(a[i]==b[j]){
+            ans = 1 + mem(a,b,i+1,j+1,dp);
+         }else{
+            ans = max(mem(a,b,i+1, j,dp) , mem(a,b,i,j+1,dp));
+         }
+
+         dp[i][j]= ans;
+
+
+                }
+            }
+return dp[0][0];
+    }
 
     int longestCommonSubsequence(string& text1, string& text2) {
-        vector<vector<int>> dp(text1.length() + 1,
-                               vector<int>(text2.length() + 1, -1));
+        // vector<vector<int>> dp(text1.length() + 1,vector<int>(text2.length() + 1, -1));
 
-        return mem(text1, text2, 0, 0, dp);
+        // return mem(text1, text2, 0, 0, dp);
+
+        return tab(text1, text2);
     }
 };
