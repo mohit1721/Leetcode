@@ -11,38 +11,27 @@
  */
 class Solution {
 public:
- void solve(TreeNode* root, string currString, int &ans){
+    void solve(TreeNode* root, string &curr, int &ans){
+        if(!root) return;
+        curr+= to_string(root->val);
 
-         //jb leaf tk phuchenge tbhi kuchh krenge
-         if(!root->left && !root->right)
-         {
-            //
-            currString+=to_string(root->val);
-            //
-            ans+=stoi(currString); //0->starting index, 2->base
-            
-            return ;
-         }
-         //else l r
-         string curr= to_string(root->val);
+        if(!root->left && !root->right){
+            ans+=stoi(curr);
+        }
         
-         if(root->left)
-         solve(root->left , currString + curr, ans);
-         if(root->right)
-         solve(root->right , currString + curr, ans);
-         
+        solve(root->left, curr, ans);
+        solve(root->right, curr, ans);
+        curr.pop_back();
 
     }
     int sumNumbers(TreeNode* root) {
         if(!root) return 0;
+        string curr="";
         int ans=0;
-        string currString="";
-      solve(root,currString,ans);
-
-   return ans;
-
-
-
-
+        solve(root, curr, ans);
+        return ans;
     }
+
+
+
 };
