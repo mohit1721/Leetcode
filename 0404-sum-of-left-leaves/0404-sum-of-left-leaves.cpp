@@ -29,10 +29,27 @@ public:
         return ls + rs ;
 
     }
+// #2. method 2 , using flag
+    int solve(TreeNode* root, bool isLeftChild){
+        if(!root) return 0;
 
+        //
+        if(!root->left && !root->right){
+            if(isLeftChild){
+                return root->val;
+            }
+        }
+
+        int ls = solve(root->left, true);
+        int rs = solve(root->right, false);
+
+        return ls+rs;
+    }
 
     int sumOfLeftLeaves(TreeNode* root) {
         if(!root) return 0;
-        return leftLeaveSum(root , NULL);
+        // return leftLeaveSum(root , NULL);
+        return solve(root, false);
+
     }
 };
