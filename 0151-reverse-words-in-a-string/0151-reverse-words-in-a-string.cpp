@@ -2,24 +2,23 @@ class Solution {
 public:
     // Accolite
     string reverseWords(string& s) {
-       vector<string> ans;
+       stack<string> ans;
         stringstream ss(s);
         string word;
         
         while (ss >> word) {
-            ans.push_back(word);
+            ans.push(word);
         }
 
-        reverse(ans.begin(), ans.end());
-
+ 
         string res = "";
-        for (int i = 0; i < ans.size(); i++) {
-            res += ans[i];
-            if (i != ans.size() - 1)
-                res += ' ';
-        }
+       while(!ans.empty()){
+        res+=ans.top();
+        ans.pop();
+        res+=' ';
+       }
 
-        return res;
+        return res.substr(0, res.length()-1);
 
 
     }
