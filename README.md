@@ -208,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/mohit1721/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/mohit1721/Leetcode/tree/master/0072-edit-distance) |
 | [0120-triangle](https://github.com/mohit1721/Leetcode/tree/master/0120-triangle) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mohit1721/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/mohit1721/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0213-house-robber-ii](https://github.com/mohit1721/Leetcode/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/mohit1721/Leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -277,12 +278,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mohit1721/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mohit1721/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mohit1721/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mohit1721/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mohit1721/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mohit1721/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0684-redundant-connection](https://github.com/mohit1721/Leetcode/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/mohit1721/Leetcode/tree/master/0820-find-eventual-safe-states) |
@@ -305,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/mohit1721/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/mohit1721/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/mohit1721/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/mohit1721/Leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
