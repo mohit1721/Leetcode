@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/mohit1721/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/mohit1721/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/mohit1721/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/mohit1721/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Array
 |  |
 | ------- |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/mohit1721/Leetcode/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/mohit1721/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0225-implement-stack-using-queues](https://github.com/mohit1721/Leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0234-palindrome-linked-list](https://github.com/mohit1721/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/mohit1721/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0780-max-chunks-to-make-sorted](https://github.com/mohit1721/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/mohit1721/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -273,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/mohit1721/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/mohit1721/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0202-happy-number](https://github.com/mohit1721/Leetcode/tree/master/0202-happy-number) |
+| [0234-palindrome-linked-list](https://github.com/mohit1721/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0455-assign-cookies](https://github.com/mohit1721/Leetcode/tree/master/0455-assign-cookies) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/mohit1721/Leetcode/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/mohit1721/Leetcode/tree/master/2551-apply-operations-to-an-array) |
@@ -456,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/mohit1721/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/mohit1721/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/mohit1721/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/mohit1721/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/mohit1721/Leetcode/tree/master/0445-add-two-numbers-ii) |
 ## Merge Sort
 |  |
