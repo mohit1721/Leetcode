@@ -1,35 +1,44 @@
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
-        // sb 0's k co-ordinates store kr lo rk baar
-        queue<pair<int, int>> q;
-        int n = matrix.size();
-        int m = matrix[0].size();
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (matrix[i][j] == 0) {
-                    q.push({i, j});
+        queue<pair<int,int>>q;
+        int n=matrix.size();
+        int m=matrix[0].size();
+// push all 0 wale co-ordinates
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(matrix[i][j]==0){
+                    q.push({i,j});
+                }
+            }
+        }
+        // do bfs
+        while(!q.empty()){
+            auto fnode = q.front();
+            q.pop();
+            int newX = fnode.first;
+            int newY = fnode.second;
+            //mark that row, if any non-zero
+            for(int i=0;i<m;i++){
+                if(matrix[newX][i]!=0){
+                    matrix[newX][i]=0;
+                }
+            }
+            // mark that col
+            for(int j=0;j<n;j++){
+                if(matrix[j][newY]!=0){
+                    matrix[j][newY]=0;
                 }
             }
         }
 
-        // ab
-        while (!q.empty()) {
-            auto fnode = q.front();
-            q.pop();
-            int X = fnode.first;
-            int Y = fnode.second;
-            
-            for (int i = 0; i < m; i++) {
-                if (matrix[X][i] != 0)
-                    matrix[X][i] = 0;
-            }
 
-            for (int j = 0; j < n; j++) {
-                if (matrix[j][Y] != 0)
-                    matrix[j][Y] = 0;
-            }
-        }
+
+
+
+
+// return matrix;
+
+
     }
 };
